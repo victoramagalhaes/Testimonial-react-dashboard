@@ -1,7 +1,6 @@
 {
   "name": "testimonial-react-dashboard",
   "version": "0.1.0",
-  "proxy": "",
   "private": true,
   "license": "MIT",
   "dependencies": {
