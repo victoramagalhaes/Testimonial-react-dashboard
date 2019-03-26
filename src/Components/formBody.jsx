@@ -8,7 +8,7 @@ export default props =>(
         <div className="input-group-prepend">
         <span className="input-group-text" id="basic-addon1"><i className="fas fa-user"></i></span>
     </div>
-    <input type="text" name="identifier" className="form-control form-aumento" onChange={props.onChange} value={props.identifier} placeholder="User" aria-label="User" aria-describedby="basic-addon1"></input>
+    <input type="text" name="identifier" className="form-control form-aumento" onChange={props.onChange} value={props.identifier} placeholder="User" aria-label="user" aria-describedby="basic-addon1"></input>
     </div>
     </div>
     </div>
@@ -18,7 +18,7 @@ export default props =>(
         <div className="input-group-prepend">
         <span className="input-group-text" id="basic-addon1"><i className="fas fa-key"></i></span>
     </div>
-    <input type="password" name="password" id="exampleInputPassword1" className="form-control form-aumento" onChange={props.onChange} value={props.password} placeholder="Password" aria-label="Password" aria-describedby="basic-addon1"></input>
+    <input type="password" name="password" id="exampleInputPassword1" className="form-control form-aumento" onChange={props.onChange} value={props.password} placeholder="Password" aria-label="password" aria-describedby="basic-addon1"></input>
     </div>
     </div>
     </div>

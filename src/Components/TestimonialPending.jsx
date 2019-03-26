@@ -4,7 +4,7 @@ import qs from 'qs';
 import {getJwt} from './jwt';
 import StarRatingComponent from 'react-star-rating-component';
 
-const URLTESTIMONIAL = 'http://depoimentos-react.herokuapp.com/testimonies';
+const URLTESTIMONIAL = '/testimonies';
 
 class DepoimentosApr extends Component {
     constructor(props){
@@ -70,7 +70,6 @@ class DepoimentosApr extends Component {
     }}
 
     render(){
-        console.log(this.state.depoimentos)
         return(
             <div className="col-md-4 text-center">
             <h2 className="text-center depoimento__space">Pending</h2>

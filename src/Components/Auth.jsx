@@ -6,7 +6,7 @@ import Loading from './loader'
 import { getJwt } from './jwt';
 import { withRouter } from 'react-router-dom'
 
-const URL = 'http://depoimentos-react.herokuapp.com/users/me';
+const URL = '/users/me';
 
 class Auth extends Component{
     constructor(props){
@@ -42,7 +42,6 @@ class Auth extends Component{
             return (
                 <Loading/>
             );
-            
         }
             return(
                 <div>

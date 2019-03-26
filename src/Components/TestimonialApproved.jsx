@@ -3,7 +3,7 @@ import axios from 'axios';
 import {getJwt} from './jwt';
 import StarRatingComponent from 'react-star-rating-component';
 
-const URLTESTIMONIAL = 'http://depoimentos-react.herokuapp.com/testimonies';
+const URLTESTIMONIAL = '/testimonies';
 
 class DepoimentosAprovados extends Component {
     constructor(props){

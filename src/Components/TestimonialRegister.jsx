@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import axios from 'axios';
 
-const URLTESTIMONIAL = 'http://depoimentos-react.herokuapp.com/testimonies';
+const URLTESTIMONIAL = '/testimonies';
 
 class Cadastro extends Component {
     constructor(props){

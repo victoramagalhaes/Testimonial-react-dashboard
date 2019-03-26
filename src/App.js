@@ -23,7 +23,6 @@ const Rotas = () => (
   </BrowserRouter>
 )
 
-
 class App extends Component {
   render() {
     return (
