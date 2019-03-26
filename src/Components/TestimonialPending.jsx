@@ -4,7 +4,7 @@ import qs from 'qs';
 import {getJwt} from './jwt';
 import StarRatingComponent from 'react-star-rating-component';
 
-const URLTESTIMONIAL = '/testimonies';
+const URLTESTIMONIAL = '/api/testimonies';
 
 class DepoimentosApr extends Component {
     constructor(props){
