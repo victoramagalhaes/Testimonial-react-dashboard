@@ -31,11 +31,11 @@ class Auth extends Component{
           .then(res => this.setState({
                 user:res.data.role.id,
           }))
-          .catch(err => {
-            // Handle error.
-            localStorage.removeItem('user-jwt');
-            this.props.history.push('/');
-          });
+        //   .catch(err => {
+        //     // Handle error.
+        //     localStorage.removeItem('user-jwt');
+        //     this.props.history.push('/');
+        //   });
     }
     render(){
         if(this.state.user === undefined){
