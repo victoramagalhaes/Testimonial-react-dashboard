@@ -8,7 +8,7 @@ import Logo from '../img/LOGO-SITE.png';
 
 import {getJwt} from './jwt'
 
-const URLGET = '/users/me';
+const URLGET = "/users/me";
 const URL = "/auth/local"
 
 function Error(props){
