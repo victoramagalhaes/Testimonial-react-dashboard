@@ -1,7 +1,7 @@
 # Testimonial React Dashboard
 
 ## About
-Testimonial system adapted for sharing, developed using React and Strapi CMS for an Inn website.
+Testimonial system code adapted for sharing, developed using React and Strapi CMS for an Inn website.
 All design was done by customer feedback.
 
 ## Features
@@ -13,3 +13,10 @@ New Testimonial (Public)
 
 Painel to accept or delete:
 > /testimonial
+
+Print Component:
+> /print
+
+## Images
+![print](https://i.imgur.com/OsvF1Up.png)
+![new](https://i.imgur.com/JMibe2q.png)
