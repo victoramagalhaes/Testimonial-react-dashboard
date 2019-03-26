@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import qs from 'qs';
 import {withRouter} from 'react-router-dom';
-import FormCorpo from './formBody';
+import FormBody from './formBody';
 
 import Logo from '../img/LOGO-SITE.png';
 
@@ -82,7 +82,7 @@ class Login extends Component {
                     <div className="col-md-12 text-center">
                         <img src={Logo} className="logo__margin" width="140px" height="110px" alt=""/>
                         <form onSubmit={this.Login}>
-                            <FormCorpo 
+                            <FormBody 
                             onChange={e => this.onChange(e)}
                             identifier={this.state.identifier}
                             password={this.state.password}
