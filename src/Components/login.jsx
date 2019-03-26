@@ -8,8 +8,8 @@ import Logo from '../img/LOGO-SITE.png';
 
 import {getJwt} from './jwt'
 
-const URLGET = "api/users/me";
-const URL = "api/auth/local"
+const URLGET = "https://depoimentos-react.herokuapp.com/users/me";
+const URL = "https://depoimentos-react.herokuapp.com/auth/local"
 
 function Error(props){
     if(!props.err){

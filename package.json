@@ -1,7 +1,7 @@
 {
   "name": "testimonial-react-dashboard",
   "version": "0.1.0",
-  "proxy": "https://depoimentos-react.herokuapp.com",
+  "proxy": "",
   "private": true,
   "license": "MIT",
   "dependencies": {
