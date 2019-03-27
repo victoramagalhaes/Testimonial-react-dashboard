@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import axios from 'axios';
 
-const URLTESTIMONIAL = '/testimonies';
+const URLTESTIMONIAL = 'https://depoimentos-react.herokuapp.com/testimonials';
 
-class Cadastro extends Component {
+class TestimonialRegister extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -138,4 +138,4 @@ class Cadastro extends Component {
         );
     }
 }
-export default Cadastro;
+export default TestimonialRegister;

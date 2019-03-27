@@ -4,9 +4,9 @@ import qs from 'qs';
 import {getJwt} from './jwt';
 import StarRatingComponent from 'react-star-rating-component';
 
-const URLTESTIMONIAL = 'https://depoimentos-react.herokuapp.com/testimonies';
+const URLTESTIMONIAL = 'https://depoimentos-react.herokuapp.com/testimonials';
 
-class DepoimentosApr extends Component {
+class TestimonialPending extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -101,4 +101,4 @@ class DepoimentosApr extends Component {
         );
     }   
 }
-export default DepoimentosApr;
+export default TestimonialPending;

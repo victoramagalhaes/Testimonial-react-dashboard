@@ -62,7 +62,7 @@ class Login extends Component {
         .post(URL, qs.stringify({ 'identifier': this.state.identifier , 'password': this.state.password }))
         .then(res => {
             localStorage.setItem('user-jwt', res.data.jwt)
-            res.data.user.role.id === 1 || res.data.user.role.id === 2 ? this.props.history.push('/testimonial') : console.log('Something went wrong.')
+            res.data.user.role.id === 1 || res.data.user.role.id === 4 ? this.props.history.push('/testimonial') : console.log('Something went wrong.')
         })
         .catch(error => {
             // Handle error.
@@ -72,7 +72,7 @@ class Login extends Component {
     }
  render(){
     // if user already logged in, redirect.
-    if(this.state.role === 1 || this.state.role === 2){
+    if(this.state.role === 1 || this.state.role === 4){
         this.props.history.push('/testimonial')
     }
     return(

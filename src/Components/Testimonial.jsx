@@ -3,7 +3,7 @@ import TestimonialPending from './TestimonialPending'
 import TestimonialApproved from './TestimonialApproved'
 import Breadcumb from './Breadcumb';
 
-class Depoimentos extends Component {
+class Testimonial extends Component {
     render(){
         return(
             <div>
@@ -18,4 +18,4 @@ class Depoimentos extends Component {
         );
     }
 }
-export default Depoimentos
+export default Testimonial;

@@ -5,9 +5,9 @@ import StarRatingComponent from 'react-star-rating-component';
 
 import axios from 'axios';
 
-const URLTESTIMONIAL = 'http://depoimentos-react.herokuapp.com/testimonies';
+const URLTESTIMONIAL = 'https://depoimentos-react.herokuapp.com/testimonials';
 
-class Visualizacao extends Component {
+class Print extends Component {
     constructor(props){
         super(props)
         this.state = {
@@ -76,4 +76,4 @@ class Visualizacao extends Component {
     }
 }
 
-export default Visualizacao;
+export default Print;

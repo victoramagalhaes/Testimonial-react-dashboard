@@ -6,7 +6,7 @@ import Loading from './loader'
 import { getJwt } from './jwt';
 import { withRouter } from 'react-router-dom'
 
-const URL = '/users/me';
+const URL = 'https://depoimentos-react.herokuapp.com/users/me';
 
 class Auth extends Component{
     constructor(props){
