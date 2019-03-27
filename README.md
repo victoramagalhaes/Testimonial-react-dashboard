@@ -5,9 +5,10 @@ Testimonial system code adapted for sharing, developed using React and Strapi CM
 All design was done by customer feedback.
 
 ## Demo
+[Live demo](https://testimonial-react.netlify.com)
 ```
 user: Demo
-password: 123456
+password: Demo123
 ```
 
 ## Features
